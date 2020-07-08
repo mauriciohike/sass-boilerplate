@@ -23,16 +23,30 @@ Inspirated in **7-1 Pattern** (just excluding the **vendor** folder), this is th
 
     scss/
     |
-    |– utilities/
-    |
     |– base/
+    |   |– _reset.scss        
+    |   |– _typography.scss   
+    |
+    |– utilities/
+    |   |– _variables.scss    
+    |   |– _functions.scss    
+    |   |– _mixins.scss       
     |
     |– components/
+    |   |– _buttons.scss      
     |
     |– layout/
+    |   |– _navigation.scss   
+    |   |– _grid.scss         
+    |   |– _header.scss      
     |
     |– pages/
+    |   |– _home.scss         
+    |   |– _about.scss        
+    |   |– _contact.scss      
     |
     |– themes/
+    |   |– _theme.scss       
+    |   |– _admin.scss        
     |
     `– main.scss
